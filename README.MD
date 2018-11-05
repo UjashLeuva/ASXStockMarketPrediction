@@ -21,7 +21,7 @@ Data used in this project is obtained from Yahoo Finance API using quantmod buil
 * Response Variables: ANZ Bank - Open, Close
 * Predictor Variables: There are around 175 companies took it as a predictor variables.
 
-A keen observer would note that all the 175 Predictor variables are ETFs that relate to Banking, Manufactor, Information Technology, Consumer goods, Real Estate, Materials, Health care and Finance stocks. ANZ is composite of all above funds.
+A keen observer would note that all the 175 Predictor variables are ETFs that relate to Banking, Manufacture, Information Technology, Consumer goods, Real Estate, Materials, Health care and Finance stocks. ANZ is composite of all above funds.
 
 From the sector and industries as per the 2018 market cap, Financials and Material sectors are stand out in market caps. 
 
