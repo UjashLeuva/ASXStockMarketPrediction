@@ -34,6 +34,13 @@ The following chart was generated using highcharter.
 
 <img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/Rplot02.png" alt="Drawing" style="width:100%;"/>
 
+## Prediction Model Description
+
+Our goal in this project is to use ETFs to predict the value of one composite stock. The premise for this is that, we can think of an ETF as a representative for the entire industry. Banking and financial firms are all pretty much correlated to each other as even a minor policy change could potentially affect all of them. Thus, by using the performance of the ETF to train our Machine Learning models, we can arrive at a healthy and reasonable prediction for target stock : __ANZ__
+
+
+
+
 
 
 
