@@ -60,6 +60,18 @@ Parabolic SAR Trend- Stop and Reverse Indicator
 
 <img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/trendCBA.jpeg" alt="Drawing" style="width:100%;"/>
 
+After munging out all the numbers for the indicators, we then feed it into our model. We also incorporate a lag of 1 day to avoid a lookahead bias on the data.
+
+## Machine Learning Algorithm
+
+We will be using the xgboost algorithm with the goal of binary logistic regression. After data preparation into training (_approx 70%_ )and test (_approx 30%_) sets, we then feed it to the algorithm. 
+
+Here's the ROC Curve for our first run on 10 rounds. 
+
+<img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/Sensitivity-Specificity.jpeg" alt="Drawing" style="width:100%;"/>
+
+
+
 
 
 
