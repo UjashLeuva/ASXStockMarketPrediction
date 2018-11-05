@@ -18,5 +18,9 @@ R Studio
 ## Dataset Description
 Data used in this project is obtained from Yahoo Finance API using quantmod built in function getSymbols(). This gives us data in the form of time series xts objects. Using the last() function we can specify our time range. I'm using the last 5 years of data for this project as some companies are established and listed in last five years. The following stocks/ETFs were used:
 
-Response Variables: ANZ Bank - Open, Close
-Predictor Variables: 
+* Response Variables: ANZ Bank - Open, Close
+* Predictor Variables: There are around 175 companies took it as a predictor variables.
+
+A keen observer would note that all the 175 Predictor variables are ETFs that relate to Banking, Manufactor, Information Technology, Consumer goods, Real Estate, Materials, Health care and Finance stocks. ANZ is composite of all above funds.
+
+
