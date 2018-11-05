@@ -29,6 +29,24 @@ The __highcharter__ library is a brilliant tool for generating visually appeasin
 The following chart was generated using highcharter.
 
 <img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/Rplot02.png" alt="Drawing" style="width:100%;"/>
+
+## Prediction Model Description
+
+Our goal in this project is to use ETFs to predict the value of one composite stock. The premise for this is that, we can think of an ETF as a representative for the entire industry. All the firms are all pretty much correlated to each other as even a minor policy change could potentially affect all of them. Thus, by using the performance of the ETF to train our Machine Learning models, we can arrive at a healthy and reasonable prediction for target stock : __ANZ__
+
+For commodities, myself took 'Aluminium (AL)' as a target commodities with the comparision of Cobalt (CB) and Copper (CP) from London Matel Exchange. 
+
+One common mistake in using time series data is that the data tends to exhibit seasonality and to arrive at an accurate measure, we need to convert it into a stationary data. Check out this article by Vegard Flovik where he talks more about this [https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd/](https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd/)
+
+One way we can go about doing this is differencing the data. But since this is financial data, the _quantmod_ package has a lot technical indicator functions which we can use to generate indicator data that more or less gets rid of seasonality.
+
+Some of the indicators, we have used are:
+
+RSI - Relative Stregth Index (A measure of how the stock performed scaled to 0-100 w.r.t the Weighted Moving Average)
+
+
+
+
                                                                                                                           
                                                                                                                     
                                                                                                                           
