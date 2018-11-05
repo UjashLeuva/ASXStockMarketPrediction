@@ -23,6 +23,10 @@ Data used in this project is obtained from Yahoo Finance API using quantmod buil
 
 A keen observer would note that all the 175 Predictor variables are ETFs that relate to Banking, Manufactor, Information Technology, Consumer goods, Real Estate, Materials, Health care and Finance stocks. ANZ is composite of all above funds.
 
+From the sector and industries as per the 2018 market cap, Financials and Material sectors are stand out in market caps. 
+
+<img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/Picture1.jpg" alt="Drawing" style="width:100%;"/>
+
 ## Visualisation of Price History
 The __highcharter__ library is a brilliant tool for generating visually appeasing and interactive charts. Although it's free for non-commercial/academic use, it requires a license for commercial use though.
 
