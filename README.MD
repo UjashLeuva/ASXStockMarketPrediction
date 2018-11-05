@@ -43,6 +43,23 @@ One way we can go about doing this is differencing the data. But since this is f
 Some of the indicators, we have used are:
 
 RSI - Relative Stregth Index (A measure of how the stock performed scaled to 0-100 w.r.t the Weighted Moving Average)
+(There are more than 175 firms therefore I can not post all the RSI for individual firms).
+
+<img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/rsiCBA.jpeg" alt="Drawing" style="width:100%;"/>
+
+
+ADX - Average Directional Indicator
+
+<img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/adxCBA.jpeg" alt="Drawing" style="width:100%;"/>
+
+Parabolic SAR Trend- Stop and Reverse Indicator
+
+<img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/trendCBA.jpeg" alt="Drawing" style="width:100%;"/>
+
+
+
+
+
 
 
 
