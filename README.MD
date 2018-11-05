@@ -28,7 +28,7 @@ The __highcharter__ library is a brilliant tool for generating visually appeasin
 
 The following chart was generated using highcharter.
 
-<img src=https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/Rplot02.png" alt="Drawing" style="width:100%;"/>
+<img src="https://github.com/ujashleuva/ASXStockMarketPrediction/blob/master/Rplot02.png" alt="Drawing" style="width:100%;"/>
                                                                                                                           
                                                                                                                     
                                                                                                                           
